@@ -19,17 +19,11 @@ function Update () {
 }
 
 function CheckBounds(){
-	//Check left bound
-	if(transform.position.x < -29){
-		BallBehaviour.playerScore++;
-		transform.position.x = 0;
-		transform.position.y = 0;
+	//Top & Bottom bounds
+	if(transform.position.y > 12.9){
+		transform.position.y = 12.9;
 	}
-	
-	//Check right bound
-	if(transform.position.x > 29){
-		BallBehaviour.enemyScore++;
-		transform.position.x = 0;
-		transform.position.y = 0;
-	}
+	if(transform.position.y < -12.9){
+		transform.position.y = -12.9;
+	}	
 }
