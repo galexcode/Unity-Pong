@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\BallBehaviour.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\EnemyBehaviour.js">
     <Files>
-      <File FileName="Assets\Code\BallBehaviour.js" Line="18" Column="2" />
+      <File FileName="Assets\Code\BallBehaviour.js" Line="56" Column="44" />
+      <File FileName="Assets\Code\GUI.js" Line="1" Column="1" />
+      <File FileName="Assets\Code\EnemyBehaviour.js" Line="4" Column="21" />
+      <File FileName="Assets\Code\NewBehaviourScript.js" Line="5" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
